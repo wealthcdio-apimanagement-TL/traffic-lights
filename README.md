@@ -57,12 +57,3 @@ The API will be available at:
 http://localhost:8080
 ```
 ---
-Summary
-This implementation demonstrates:
-Clean object‑oriented design
-Domain‑driven thinking
-Correctness and safety in a state‑driven system
-Concurrency awareness
-Tests as documentation
-Clear trade‑offs under a strict timebox
-The emphasis was placed on readable code that communicates intent, in line with the spirit of the kata.
