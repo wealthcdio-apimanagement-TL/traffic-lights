@@ -1,22 +1,3 @@
-Traffic Light Controller API
-Overview
-This project is a Traffic Light Controller API developed as a short, time‑boxed coding kata (3–4 hours). The intention was not to deliver a complete production‑ready solution, but to demonstrate clean design, correctness, testability, and thoughtful trade‑offs under time constraints.
-The system models a traffic light controller for a road intersection and exposes a REST API to control and inspect its state.
----
-Problem Statement
-The system should:
-Manage traffic light state changes (`RED`, `YELLOW`, `GREEN`)
-Support multiple directions (`NORTH`, `SOUTH`, `EAST`, `WEST`)
-Accept commands to:
-Change traffic light state
-Pause and resume operation
-Ensure conflicting directions are never green simultaneously
-Provide:
-Current traffic light state
-Historical state transitions with timestamps
-Be safe for concurrent access
-Be designed to allow future expansion (e.g., multiple intersections)
----
 What Has Been Implemented
 1. Domain Model
 The core domain is intentionally simple and expressive:
@@ -61,24 +42,7 @@ REST endpoints using `MockMvc`
 Real HTTP request/response behavior
 Safety rule enforcement via the API
 Test names are intentionally descriptive and focus on behavior rather than implementation details.
----
-Design for Future Expansion
-While the current implementation manages a single intersection, the design allows for:
-Multiple intersections (mapping intersection IDs to controllers)
-Configurable safety rules per intersection
-Timed or automated light sequencing
-Persistent storage of historical states
-These features were intentionally left out due to the kata timebox.
----
-What Was Intentionally Out of Scope
-Given the limited time window, the following were deliberately not implemented:
-Automatic signal sequencing and timers
-Database persistence
-Advanced HTTP error mapping
-Authentication / authorization
-Distributed or clustered execution
-The focus was on clarity, correctness, and extensibility, rather than feature completeness.
----
+
 How To Run
 Build & Test
 ```bash
