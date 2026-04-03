@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="cas" />
+      <option name="name" value="cas" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CorpIT-nexus-releases" />
+      <option name="name" value="Corp IT Releases" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="public-proxy" />
+      <option name="name" value="Maven2 Proxy" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="legalIT-nexus-releases" />
+      <option name="name" value="Legal IT Releases" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dvc-artifactory" />
+      <option name="name" value="DVC Artifactory" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="legalIT-nexus" />
+      <option name="name" value="Legal IT Repo" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="EMS" />
+      <option name="name" value="EMS" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CorpIT-nexus-snapshots" />
+      <option name="name" value="Corp IT Releases" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ems_repo" />
+      <option name="name" value="EMS Repo" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-releases" />
+      <option name="name" value="spring-releases" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven central" />
+      <option name="name" value="maven central" />
+      <option name="url" value="https://artifactory-edge-qdc.qualcomm.com/artifactory/dvc-maven-virtual" />
+    </remote-repository>
+  </component>
+</project>
